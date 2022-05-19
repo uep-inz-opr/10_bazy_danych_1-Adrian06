@@ -1,3 +1,4 @@
+
 import csv, sqlite3
 
 class ReportGenerator:
@@ -36,4 +37,3 @@ if __name__ == "__main__":
 
 	rp = ReportGenerator(sqlite_con, file)
 	rp.generate_report()
-	print(rp.get_report())
