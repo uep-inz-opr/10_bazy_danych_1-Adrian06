@@ -36,4 +36,5 @@ if __name__ == "__main__":
 	    sqlite_con.commit()
 
 	rp = ReportGenerator(sqlite_con, file)
-	print(rp.generate_report())
+	rp.generate_report()
+	print(rp.get_report())
